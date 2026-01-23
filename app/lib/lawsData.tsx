@@ -232,7 +232,7 @@ export const lawsData: LawData[] = [
   {
     id: 10,
     title: 'Rhode Island Code of Regulations',
-    header: '250-RICR-120-05-46, &apos;CO2 Budget Trading Program&apos;',
+    header: "250-RICR-120-05-46, 'CO2 Budget Trading Program'",
     body: (
       <>
         46.7 A.Carbon dioxide requirements<br />
