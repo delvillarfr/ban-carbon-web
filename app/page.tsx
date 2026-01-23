@@ -181,7 +181,7 @@ export default function Home() {
             <div className="counter-labels">
               <div>
                 Live emissions<br />
-                (2025, tons CO<sub>2</sub>)
+                (2026, tons CO<sub>2</sub>)
               </div>
               <div className="counter-divider"></div>
               <div className="counter-label-right">
