@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useScrolledPastTop } from '@/app/lib/useScrolledPastTop';
-import EmailForm from '@/app/ui/EmailForm';
+
 import { courier } from '@/app/ui/fonts';
 import Smokestack from '@/public/rggi-power-plants.svg';
 import Law from '@/app/ui/Law';
@@ -91,7 +91,11 @@ export default function Home() {
                   to emit CO<sub>2</sub>.
                 </h1>
               </div>
-              <EmailForm />
+              <div className="email">
+                <a href="mailto:paco@bancarbon.com?subject=Inquiry" className="email-cta">
+                  Get in touch
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -243,10 +247,14 @@ export default function Home() {
               <p>1. We compete with power plants to buy <br />
               <span className="invisible">1. </span>
               their carbon permits in state auctions.</p>
-              <p>2. We lock them up in a trust forever.</p>
+              <p>2. We lock them up forever.</p>
             </div>
           </div>
-          <EmailForm className="cta-end"/>
+          <div className="email cta-end">
+            <a href="mailto:paco@bancarbon.com?subject=Inquiry" className="email-cta">
+              Get in touch
+            </a>
+          </div>
         </section>
         <footer>
           <a href="mailto:paco@bancarbon.com" className="footer-email">
