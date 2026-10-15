@@ -204,41 +204,6 @@ export default function Home() {
                   burn their permits.
                 </h2>
               </div>
-            <div className="permit-footage-container">
-              <div className="permits-closeup-container">
-                <Image
-                  src="/permits-closeup.svg"
-                  alt="Permits close-up"
-                  width={119}
-                  height={134}
-                  className="permits-closeup"
-                />
-              </div>
-              <div className="permit-footage">
-                {/* Background layer - permits */}
-                <Image
-                  src="/permits.png"
-                  alt="Permit footage"
-                  width={300}
-                  height={200}
-                  className="permits-background"
-                />
-                {/* Intermediate layer - vignette */}
-                <div className="vignette-overlay"></div>
-                {/* Intermediate layer - analog static/scanlines */}
-                <div className="analog-static"></div>
-                <div className="rolling-line"></div>
-                <div className="rolling-line line-2"></div>
-                {/* Foreground layer - CCTV overlay */}
-                <Image
-                  src="/permits-cctv.svg"
-                  alt="CCTV overlay"
-                  width={131}
-                  height={88}
-                  className="permits-cctv-overlay"
-                />
-              </div>
-            </div>
           </div>
         </section>
         <section>
