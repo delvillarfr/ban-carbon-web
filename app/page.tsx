@@ -212,7 +212,7 @@ export default function Home() {
               <p>1. We compete with power plants to buy <br />
               <span className="invisible">1. </span>
               their carbon permits in state auctions.</p>
-              <p>2. We lock them up forever.</p>
+              <p>2. We lock the permits up forever.</p>
             </div>
           </div>
           <div className="email cta-end">
